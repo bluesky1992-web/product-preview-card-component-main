@@ -20,11 +20,6 @@
   /* 2 */
 }
 
-.container {
-  height: 385px;
-  
-}
-
 ::before,
 ::after {
   --tw-content: '';
@@ -779,16 +774,16 @@ video {
   height: 2.25rem;
 }
 
-.h-\[385px\] {
-  height: 385px;
-}
-
 .h-screen {
   height: 100vh;
 }
 
-.h-\[400px\] {
-  height: 400px;
+.h-\[\] {
+  height: ;
+}
+
+.h-\[385px\] {
+  height: 385px;
 }
 
 .w-0 {
@@ -2533,3 +2528,4 @@ video {
     }
   }
 }
+
