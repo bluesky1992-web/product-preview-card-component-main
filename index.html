@@ -45,21 +45,33 @@
         src="./images/image-product-mobile.jpg"
         alt="image-product-mobile "
       />
-      
+
       <div
-        class=" p-5  flex flex-col justify-evenly  bg-white h-[385px] w-64  lg:rounded-tr-lg lg:rounded-br-lg shadow-lg"
+        class="p-5 flex flex-col justify-evenly bg-white h-[385px] rounded-bl-lg rounded-br-lg lg:rounded-bl-none w-64 lg:rounded-tr-lg lg:rounded-br-lg shadow-lg"
       >
-      <h5 class="-mt-5">PERFUME</h5>
-        <h1>Gabrielle Essence Eau De Parfum</h1>
-        <p class="w-[210px] text-sm">
+        <h5 class="-mt-5 opacity-70 font-montserrat text-xs tracking-[5px]">
+          PERFUME
+        </h5>
+        <h1 class="text-2xl w-40 font-fraunces font-bold">
+          Gabrielle Essence Eau De Parfum
+        </h1>
+        <p class="w-[210px] text-[13px] font-montserrat font-medium opacity-70">
           A floral, solar and voluptuous interpretation composed by Oliver
           Polge, Perfurmer-Creator for the House Of CHANEL.
         </p>
-        <span class="">$149.99</span>
-        <span>$169.99</span>
-        <button class="flex text-center items-center" type="button">
-          <img class="bg-black" src="./images/icon-cart.svg" alt="" /> Add to
-          Cart
+        <div class="flex text-center items-center">
+          <span class="text-green-700 font-fraunces font-bold text-2xl pr-5"
+            >$149.99</span
+          >
+          <span class="opacity-70 text-xs line-through">$169.99</span>
+        </div>
+
+        <button
+          class="flex text-center justify-center bg-green-700 hover:bg-green-800 w-52 h-9 items-center rounded-lg text-white text-xs font-montserrat font-bold"
+          type="button"
+        >
+          <img class="pr-3" src="./images/icon-cart.svg" alt="" />
+          <h6 class="space-x-6">Add to Cart</h6>
         </button>
       </div>
     </div>
