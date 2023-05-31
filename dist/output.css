@@ -20,6 +20,11 @@
   /* 2 */
 }
 
+.container {
+  height: 385px;
+  
+}
+
 ::before,
 ::after {
   --tw-content: '';
